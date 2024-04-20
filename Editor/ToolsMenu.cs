@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using static System.IO.Directory;
 using static System.IO.Path;
 using static UnityEngine.Application;
@@ -136,3 +137,4 @@ namespace DR
 
     }
 }
+#endif
